@@ -1,5 +1,23 @@
 .App {
   text-align: center;
+
+}
+
+.bigButton{
+  color:blue;
+}
+
+
+.listItems{
+  margin-top: 5.0rem;
+  margin: 10px;
+ text-align:center;
+}
+
+.row{
+ display:flex;
+ justify-content:center;
+flex-direction:row;
 }
 
 .App-logo {
