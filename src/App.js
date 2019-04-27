@@ -29,11 +29,11 @@ handleChange=(e)=> {
 
 handleSubmit=(e)=> {
   e.preventDefault();
- // this.setState((state) => ({search:state.inputValue.charAt(0).toUpperCase() + state.inputValue.slice(1), inputValue:''}));
+ //this.setState((state) => ({search:state.inputValue.charAt(0).toUpperCase() + state.inputValue.slice(1), inputValue:''}));
   
  
 
- this.setState({search:this.state.inputValue.charAt(0).toUpperCase() + this.state.inputValue.slice(1), inputValue:''});
+ this.setState({search:this.state.inputValue.charAt(0).toUpperCase() + this.state.inputValue.slice(1).toLowerCase(), inputValue:''});
  // this.setState({search:this.state.inputValue, inputValue:''});
 
 }
