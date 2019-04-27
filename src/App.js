@@ -29,7 +29,7 @@ handleChange=(e)=> {
 
 handleSubmit=(e)=> {
   e.preventDefault();
- // this.setState((state) => ({search:state.inputValue.charAt(0).toUpperCase() + state.inputValue.slice(1), inputValue:''}));
+ //this.setState((state) => ({search:state.inputValue.charAt(0).toUpperCase() + state.inputValue.slice(1), inputValue:''}));
   
  
 
