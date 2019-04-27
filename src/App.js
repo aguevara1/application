@@ -33,7 +33,7 @@ handleSubmit=(e)=> {
   
  
 
- this.setState({search:this.state.inputValue.charAt(0).toUpperCase() + this.state.inputValue.slice(1), inputValue:''});
+ this.setState({search:this.state.inputValue.charAt(0).toUpperCase() + this.state.inputValue.slice(1).toLowerCase(), inputValue:''});
  // this.setState({search:this.state.inputValue, inputValue:''});
 
 }
